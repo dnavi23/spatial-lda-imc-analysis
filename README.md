@@ -37,7 +37,7 @@ pip install scimap anndata scanpy pandas numpy matplotlib seaborn scikit-learn g
 3. For testing: Use the built-in sample data generation
 4. For your data: Update file paths and column names in Section 2
 
-## 📖 Workflow
+##  Workflow
 
 1. **Load Data**: Expression matrix + metadata with spatial coordinates
 2. **Extract Neighborhoods**: Identify spatial neighborhoods around each cell
@@ -46,12 +46,12 @@ pip install scimap anndata scanpy pandas numpy matplotlib seaborn scikit-learn g
 5. **Spatial LDA**: Use scimap with data-driven topic number
 6. **Visualization**: Explore discovered spatial patterns
 
-## 📁 Files
+## Files
 
 - `spatial_lda_topic_modeling.ipynb`: Main analysis notebook
 - `README.md`: This file
 
-## 🔧 Customization
+##  Customization
 
 ### Required Column Names
 Update these in the notebook to match your metadata:
