@@ -2,7 +2,7 @@
 
 A comprehensive workflow for applying Latent Dirichlet Allocation (LDA) topic modeling to Imaging Mass Cytometry (IMC) data to discover spatial cellular organization patterns.
 
-## 🎯 Overview
+##  Overview
 
 This repository demonstrates how to use **coherence analysis** to determine the optimal number of topics for spatial LDA, solving the critical problem of arbitrary topic selection in scimap's `spatial_lda` function.
 
@@ -13,7 +13,7 @@ Instead of guessing how many spatial motifs to discover, this workflow:
 - Selects the optimal number based on data properties
 - Ensures reproducible, interpretable, and biologically meaningful results
 
-## 📋 Features
+## Features
 
 - **Data-driven topic selection** via coherence analysis
 - **Spatial motif discovery** using LDA topic modeling
@@ -22,7 +22,7 @@ Instead of guessing how many spatial motifs to discover, this workflow:
 - **Sample data generation** for testing the workflow
 - **Plug-and-play** structure with clear documentation
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -65,24 +65,24 @@ Update these in the notebook to match your metadata:
 - `start`, `limit`, `step`: Topic number range for coherence analysis
 - `n_clusters`: Number of spatial clusters (default: 6)
 
-## 📚 References
+##  References
 
 - **Scimap**: https://scimap.readthedocs.io/
 - **LDA Topic Modeling**: Blei et al. (2003) JMLR
 - **Coherence Metrics**: Röder et al. (2015) EMNLP
 
-## 📝 Citation
+##  Citation
 
 If you use this workflow, please cite:
 - The scimap package
 - Relevant LDA and coherence analysis papers
 - This repository (if helpful)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please feel free to submit issues or pull requests.
 
-## 📄 License
+##  License
 
 This notebook is provided as-is for educational and research purposes.
 
