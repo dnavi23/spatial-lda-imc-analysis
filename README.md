@@ -75,7 +75,6 @@ Update these in the notebook to match your metadata:
 
 If you use this workflow, please cite:
 - The scimap package
-- Relevant LDA and coherence analysis papers
 - This repository (if helpful)
 
 ##  Contributing
